@@ -1,0 +1,40 @@
+body {
+  background: url(bg.png), linear-gradient(to right, #137ed9, #254d7d) !important ;
+  background-repeat: repeat !important;
+}
+.container {
+  font-family: cursive;
+}
+.len {
+  width: 20rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  opacity: 0.7;
+}
+.btn {
+  border-radius: 10px !important;
+}
+.card {
+  width: 25rem;
+  border-radius: 20px !important;
+  height: auto;
+}
+.con {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 30px !important;
+    justify-content: center;
+  }
+  body {
+    background: url(bg.png), linear-gradient(#254d7d) !important ;
+    background-repeat: repeat !important;
+  }
+  .card {
+    width: 18rem;
+    border-radius: 20px !important;
+    height: auto;
+  }
+} ;
